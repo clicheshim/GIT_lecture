@@ -28,3 +28,16 @@ branch merge conflict : branch 를 병합할 때 같은 속성(?) 부위를 결�
 
 			이를 예방하기 위해서는 branch 를 고치는 중간 중간에
 			master 를 merge 해줘서 충돌을 예방하거나 최소화 할 수 있다...
+
+GITHUB : 원격저장소로 이용됨
+		local repository 에서 수행한 작업을 동기화할 수 있다
+		GITHUB 에서 new repository 를 통해 얻은 HTTP 주소를 
+		add remote 를 통해서 새로 만들면
+		왼쪽 menu-bar 에 remote 자리에 원격저장소가 뜬다..
+		내용을 upload 하기 위해서는 push icon 을 통해서 실행할 수 있다.
+		가장 최근 버젼의 파일은 파일리스트 Description 자리에 붙는 icon 을 통해 확인할 수 있다
+		[master] 만 있는 경우 local 에 저장된 가장 최신 버젼을 의미
+		[origin(원격저장소 이름)/master] 원격저장소에 있는 가장 최신 버젼
+		[branch name] branch 에 있는 가장 최신버젼 
+
+		local repository 에만 저장하게 되면 push icon 에 원격저장소로 보내지 않는 버젼이 몇개 있는 지 알려주고.. push 를 누르면 동기화 된다
