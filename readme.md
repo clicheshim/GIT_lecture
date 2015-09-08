@@ -41,3 +41,17 @@ GITHUB : 원격저장소로 이용됨
 		[branch name] branch 에 있는 가장 최신버젼 
 
 		local repository 에만 저장하게 되면 push icon 에 원격저장소로 보내지 않는 버젼이 몇개 있는 지 알려주고.. push 를 누르면 동기화 된다
+
+co-works : 두 명 이상이 함께 공동작업을 할때..
+		clone/new 를 통해서 새로운 clone 을 만든다
+		이때 clone 의 url 은 GITHUB (오른쪽 아래..) 에 있는 clone url 을 이용
+		공동작업자 사이에서는 push & pull 을 이용
+		push - uploading to remote repository 
+		pull - downloading to local repository
+		결국 공동작업을 실행할 때에는 항상 아래의 순서를 따라야 협업자의 작업 내용을 공유할 수 있다...
+
+		pull -> work -> commit -> pull (왜나면 작업하는 사이에 협업자가 upload 할 수 있으니까..) -> push
+
+		co-work conflict 도 생길 수 있다... 
+		push & pull 을 하면 GIT 이 자동으로 두 파일을 merge 해주기 때문..
+		conflict 이 생기면 branch 에서 conflict 을 mark resoluve 해주듯이 하면된다..
