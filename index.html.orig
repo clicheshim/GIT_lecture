@@ -1,7 +1,7 @@
-<html>
+﻿<html>
     <head>
         <meta charset="UTF-8" />
-        <title>GIT class</title>
+        <title>GIT 수업</title>
     </head> 
     <body>
         <header>
@@ -28,8 +28,11 @@
             <li>ignore</li>
             <li>p4merge.master</li>
             <li>p4merge.example1</li>
-            <li>stash_example</li>
+<<<<<<< Updated upstream
             <li>stash_conflict</li>
+=======
+            <li>stash_example</li>
+>>>>>>> Stashed changes
         </ul>
     </body>
 </html>
